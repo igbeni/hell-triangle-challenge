@@ -28,6 +28,6 @@ public class App {
         }
 
         HellTriangle hellTriangle = new HellTriangle(triangle);
-        System.out.println(hellTriangle.getLargestSum());
+        System.out.println("The maximum total from top to bottom of the triangle: " + hellTriangle.getLargestSum());
     }
 }
